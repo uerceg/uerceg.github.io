@@ -1,5 +1,5 @@
 ---
-title: home
+title: uerceg.github.io
 layout: home
 permalink: /
 ---

@@ -8,7 +8,7 @@ request.onload = function() {
         let response = JSON.parse(this.response);
 
         for (var i = 0; i < response.length; i++) {
-            document.getElementById('gh-comments-list').appendChild(createCommentEl(response[i]));
+            document.getElementById('gh-comments-list').appendChild(createCommentElement(response[i]));
         }
 
         if (0 === response.length) {
@@ -19,17 +19,18 @@ request.onload = function() {
     }
 };
 
-function createCommentEl(response) {
+function createCommentElement(response) {
     let user = document.createElement('a');
     user.setAttribute('href', response.user.url.replace('api.github.com/users', 'github.com'));
     user.classList.add('user');
 
-    let userAvatar = document.createElement('img');
-    userAvatar.classList.add('avatar');
-    userAvatar.setAttribute('src', response.user.avatar_url);
-    userAvatar.width = '24';
-    userAvatar.height = '24';
-    user.appendChild(userAvatar);
+    // let's not avatar after all
+    // let userAvatar = document.createElement('img');
+    // userAvatar.classList.add('avatar');
+    // userAvatar.setAttribute('src', response.user.avatar_url);
+    // userAvatar.width = '24';
+    // userAvatar.height = '24';
+    // user.appendChild(userAvatar);
 
     let commentLink = document.createElement('a');
     commentLink.setAttribute('href', response.html_url);

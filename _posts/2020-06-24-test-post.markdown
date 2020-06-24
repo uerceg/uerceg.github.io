@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Test post"
+date:   2020-06-24 09:20:00 +0100
+---
+
+# Test post
+Test content
+
+## Test post details
+Test details content

@@ -32,6 +32,9 @@ function createCommentElement(response) {
     // userAvatar.height = '24';
     // user.appendChild(userAvatar);
 
+    var br = document.createElement("br");
+    user.appendChild(br);
+
     let userNickname = document.createTextNode(response.user.login);
     user.appendChild(userNickname);
 

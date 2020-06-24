@@ -2,6 +2,7 @@
 title: coding
 layout: coding
 permalink: /coding
+lang: en
 ---
 
 # Coding

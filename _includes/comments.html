@@ -32,6 +32,9 @@ function createCommentElement(response) {
     // userAvatar.height = '24';
     // user.appendChild(userAvatar);
 
+    let userNickname = document.createTextNode(response.user.login);
+    user.appendChild(userNickname);
+
     let commentLink = document.createElement('a');
     commentLink.setAttribute('href', response.html_url);
     commentLink.classList.add('comment-url');

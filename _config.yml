@@ -6,7 +6,7 @@ header_pages:
 
 style: dark # dark (default) or light
 
-permalink: /:categories/:title/
+permalink: /:categories/:title
 
 #google_analytics: UA-NNNNNNNN-N
 #footer: 'follow us on <a href="https://twitter.com/">twitter</a>'

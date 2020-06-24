@@ -3,7 +3,7 @@ layout: post
 title: "Тест чланак о Канади"
 date: 2020-06-24 23:49:00 +0100
 categories: canada
-lang: en
+lang: rs
 ---
 
 # Тест чланак о Канади

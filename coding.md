@@ -1,6 +1,6 @@
 ---
 title: coding
-layout: default
+layout: coding
 permalink: /coding
 ---
 

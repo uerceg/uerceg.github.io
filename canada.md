@@ -1,6 +1,6 @@
 ---
 title: canada
-layout: default
+layout: canada
 permalink: /canada
 ---
 

@@ -14,3 +14,17 @@ permalink: /:categories/:title
 
 plugins:
   - jekyll-seo-tag
+
+defaults:
+  #languages
+  -
+    scope:
+      path: "en"
+    values:
+      lang: "en"
+      layout: default
+  -
+    scope:
+      path: "sr"
+    values:
+      lang: "sr"

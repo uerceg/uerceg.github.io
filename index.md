@@ -2,7 +2,6 @@
 title: home
 layout: default
 permalink: /
-lang: en
 ---
 
 # Home page

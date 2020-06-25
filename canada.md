@@ -2,7 +2,6 @@
 title: canada
 layout: canada
 permalink: /canada
-lang: en
 ---
 
 # Canada

@@ -4,6 +4,4 @@ layout: default
 permalink: /about
 ---
 
-# About
-
-About page to be made.
+{% translate_file about.md %}

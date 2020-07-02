@@ -4,6 +4,4 @@ layout: coding
 permalink: /coding
 ---
 
-# Coding
-
-Coding page to be made.
+{% translate_file coding.md %}

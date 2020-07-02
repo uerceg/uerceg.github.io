@@ -4,6 +4,4 @@ layout: default
 permalink: /
 ---
 
-# Home page
-
-Home page to be made.
+{% translate_file index.md %}

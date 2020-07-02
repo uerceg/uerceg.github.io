@@ -4,4 +4,4 @@ layout: canada
 permalink: /canada
 ---
 
-{% translate_file canada.md %}
+{% tf canada.md %}

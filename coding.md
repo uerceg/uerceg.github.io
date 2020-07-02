@@ -4,4 +4,4 @@ layout: coding
 permalink: /coding
 ---
 
-{% translate_file coding.md %}
+{% tf coding.md %}

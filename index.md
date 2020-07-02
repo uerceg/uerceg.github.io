@@ -4,4 +4,4 @@ layout: default
 permalink: /
 ---
 
-{% translate_file index.md %}
+{% tf index.md %}

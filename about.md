@@ -4,4 +4,4 @@ layout: default
 permalink: /about
 ---
 
-{% translate_file about.md %}
+{% tf about.md %}

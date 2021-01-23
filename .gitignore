@@ -4,3 +4,7 @@
 # bundle install
 Gemfile.lock
 vendor/
+
+# bundle exec jekyll serve --livereload
+.jekyll-cache/
+_site/

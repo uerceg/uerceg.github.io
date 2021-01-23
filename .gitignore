@@ -1,1 +1,6 @@
+# macOS
 .DS_Store
+
+# bundle install
+Gemfile.lock
+vendor/

@@ -6,5 +6,5 @@ permalink: /about
 
 # About me
 
-- [GitHub](https://github.com/ugi)
+- [GitHub](https://github.com/uerceg)
 - [LinkedIn](https://www.linkedin.com/in/uerceg/)
